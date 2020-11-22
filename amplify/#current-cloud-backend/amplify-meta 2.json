@@ -1,0 +1,34 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-skillshare-app-dev-164232-authRole",
+            "UnauthRoleArn": "arn:aws:iam::465799586547:role/amplify-skillshare-app-dev-164232-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::465799586547:role/amplify-skillshare-app-dev-164232-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-skillshare-app-dev-164232-deployment",
+            "UnauthRoleName": "amplify-skillshare-app-dev-164232-unauthRole",
+            "StackName": "amplify-skillshare-app-dev-164232",
+            "StackId": "arn:aws:cloudformation:us-west-2:465799586547:stack/amplify-skillshare-app-dev-164232/879eee70-6196-11ea-9025-0afd1207ca5c",
+            "AmplifyAppId": "d27ih44igh0usg"
+        }
+    },
+    "api": {
+        "EmployeeSkills": {
+            "service": "AppSync",
+            "output": {
+                "authConfig": {
+                    "defaultAuthentication": {
+                        "authenticationType": "API_KEY"
+                    },
+                    "additionalAuthenticationProviders": null
+                },
+                "GraphQLAPIIdOutput": "jeign2eshff2leixfp4cherioy",
+                "GraphQLAPIEndpointOutput": "https://cdkzgwd7k5bfhfcifbshua3wbq.appsync-api.us-west-2.amazonaws.com/graphql",
+                "name": "EmployeeSkills",
+                "region": "us-west-2",
+                "GraphQLAPIKeyOutput": "da2-wwrdipnva5fwnp7a6qmc26kctu"
+            },
+            "lastPushTimeStamp": "2020-03-08T23:43:52.776Z"
+        }
+    }
+}

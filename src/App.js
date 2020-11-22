@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import AppBar from '@material-ui/core/AppBar';
-import logo from './logo.svg';
+import wsielogo from './wsielogo.png';
 import { Toolbar, Container, Grid, Paper } from '@material-ui/core';
 import EmployeeList from './components/employees/employee-list';
 import EmployeeDetail from './components/employees/employee-detail';
@@ -22,8 +22,8 @@ function App() {
     <React.Fragment>
     <AppBar position="fixed">
       <Toolbar>
-      <img src={logo} className="App-logo" alt="logo" />
-      <h1>SkillShare</h1>
+      <img src={wsielogo} className="App-logo" alt="logo" />
+      <h1>What Should I eat</h1>
       </Toolbar>
     <main>
                 <Container maxWidth="lg">
